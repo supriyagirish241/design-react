@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/design-react/static/css/main.912ac264.css",
+    "main.js": "/design-react/static/js/main.c81526d4.js",
+    "static/js/453.87980917.chunk.js": "/design-react/static/js/453.87980917.chunk.js",
+    "static/media/image.png": "/design-react/static/media/image.c3d3c804e46287d48842.png",
+    "static/media/Ig.png": "/design-react/static/media/Ig.92ea708d59b6f54e3a05.png",
+    "static/media/im1.avif": "/design-react/static/media/im1.214234f24bce947ed8fc.avif",
+    "static/media/funnel.png": "/design-react/static/media/funnel.0dd7ec56131517aae807.png",
+    "index.html": "/design-react/index.html",
+    "main.912ac264.css.map": "/design-react/static/css/main.912ac264.css.map",
+    "main.c81526d4.js.map": "/design-react/static/js/main.c81526d4.js.map",
+    "453.87980917.chunk.js.map": "/design-react/static/js/453.87980917.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.912ac264.css",
+    "static/js/main.c81526d4.js"
+  ]
+}
