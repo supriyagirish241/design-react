@@ -1,0 +1,21 @@
+.footer {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #dcdcdc; 
+    max-width: 1440px;
+    margin-left: 370px;
+
+  }
+  
+  .cont {
+    max-width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .text-muted {
+    color: #6c757d;
+    font-size: 20px;
+  }
+  

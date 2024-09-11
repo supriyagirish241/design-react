@@ -1,0 +1,45 @@
+
+.TxtImg-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%; /* Add some padding for better spacing */
+  }
+  
+  .TxtImg-image {
+    flex: 0 0 auto; /* Prevent image from shrinking */
+    width: 25%; /* Make image take up 50% of the container width */
+    max-width: 779px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 30px;/* Space between image and text */
+    
+  }
+  
+  .TxtImg-content {
+    flex: 1; /* Allow text content to take up remaining space */
+    max-width: 25%; /* Make content take up to 50% of the container width */
+  }
+  
+  .TxtImg-title {
+    font-size: 2rem; /* Adjust title font size as needed */
+    margin-bottom: 0.5rem; /* Space below title */
+    color: black; 
+    font-family: "Arial Black", sans-serif; 
+    margin-top: 0;
+    margin-top: 21px;
+    font-weight: 900px;
+    width: 500px;
+  }
+  
+  .TxtImg-description {
+    font-size: 1.4rem; /* Adjust description font size as needed */
+    color: #4A4A4A;
+    line-height: 1.5; /* Line height for better readability */
+    width: 555px; /* Reset margin */
+    margin-bottom: 8rem;
+    margin-top:10px;
+  
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 500;/*space between two cards*/
+  }
+  

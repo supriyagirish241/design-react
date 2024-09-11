@@ -1,0 +1,15 @@
+.button-container {
+    background-color: #f3dc9e; 
+    color: #000000; /* White text color */
+    padding: 30px 49px; /* Padding */
+    border: none; /* No border */
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+    margin-top: -35px;
+    font-size: 30px; /* Adjust the font size */
+    font-weight: bold; /* Adjust the font weight */
+    font-style: india; 
+     margin-left: 834px;
+    margin-right: 803px;
+    width: 500px;
+}

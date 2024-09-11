@@ -1,0 +1,139 @@
+.grid-container {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 129px;
+    /* grid-column-gap: 0; */
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,100px); */
+  }
+  
+  .grid-row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #ccc; /* Add border at the bottom */
+  }
+  
+  .grid-row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  /* .grid-row2 .grid-item2:nth-child(4n) {
+    border-right: none;
+  } */
+  
+  .grid-item1,
+  .grid-item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    text-align: center;
+    border-right: none;
+    border-bottom: none;
+    position: relative;
+   margin-top:-10px;
+  }
+  .last-item {
+    border-right: none;
+    border-left: none;
+  }
+  
+  
+  .grid-item1::before,
+  .grid-item2::before{
+    content: "";
+    /* position: absolute; */
+    top: 10px;
+    right: -2px;
+    bottom: 0;
+    width: 2px;
+    background-color: #ccc;
+    border-radius: 10px;
+    border-left: none;
+    
+  }
+  .grid-item1:not(:last-child)::after,
+  .grid-item2:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -2px;
+    bottom: 0;
+    width: 2px;
+    background-color: #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  .grid-item2::before {
+    top: 0px;
+    
+  }
+  
+  .grid-row1 .grid-item:first-child {
+    border-left: none;
+  }
+  
+  .grid-row2 .grid-item:first-child {
+    border-top: none;
+    border-left: none;
+  }
+  
+  .grid-row1 .grid-item:last-child {
+    border-right: none;
+    border-left: none;
+  
+  }
+  
+  .grid-row2 .grid-item:last-child {
+    border-right: none;
+    border-left: none;
+   
+  }
+  
+  /* .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-left: 1px solid #ccc;
+    text-align: center;
+  } */
+  
+  .imge {
+    width: 46px;
+    height: auto;
+    margin-bottom: -7px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .pi {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* .grid-item:nth-child(odd) {
+    border-left: none;
+  }
+  
+  .grid-item:nth-child(even) {
+    border-right: none;
+  } */
+  

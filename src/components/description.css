@@ -1,0 +1,18 @@
+.description-container {
+    font-weight: bold;
+    font-size:30px;
+    margin-left:713px;
+    font-family: "Arial Black", sans-serif;
+
+}
+.content-container {
+    font-size:1.5rem;
+    color: #4A4A4A;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.text-container {
+    /* font-family: "Liberation Sans"; */
+    color: black;
+    
+}

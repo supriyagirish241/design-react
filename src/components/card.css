@@ -1,0 +1,57 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 1064px;
+    background-color: #2a5b51;
+    margin-left: 527px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 37px;
+  }
+  
+  .h {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: -18px;
+    text-align: center; /* Center the text */
+    white-space: nowrap; 
+    font-family: "Arial Black", sans-serif; 
+    /* Prevent text from wrapping */
+   /* Hide any overflow */
+     /* Show ellipsis if text overflows */
+  }
+  
+  .content {
+    text-align: center;
+    width: 1044px;
+  }
+  
+  .content p {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 7px;
+  }
+  
+  .b {
+    padding: 25px 46px;
+    font-size: 1.5rem;
+    color: black;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 28px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .b:hover {
+    background-color: #0056b3;
+  } */
+  

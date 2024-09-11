@@ -1,0 +1,28 @@
+.hed {
+    font-size: 43px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 153px; /* Adding some padding for spacing */
+}
+
+.hed p {
+    margin: 0; /* Remove default margin for <p> */   
+}
+
+.b-c {
+        
+         /* White text color */
+        padding: 35px 80px; /* Padding */
+        border: none; /* No border */
+        border-radius: 15px; /* Rounded corners */
+        cursor: pointer; /* Cursor on hover */
+        font-family: dancing script,cursive;
+        font-size: 52px;
+        font-weight: bolder;
+        color: rgb(42, 91, 81);
+        letter-spacing: -4px;/* Specify the font family */
+        /* Adjust the font weight */
+     
+    } 
